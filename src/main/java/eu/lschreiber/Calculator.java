@@ -3,7 +3,7 @@ package eu.lschreiber;
 import java.util.*;
 
 public class Calculator {
-    static Optional<Integer[]> findIntersection(Integer[] a, Integer[] b) {
+    public static Optional<Integer[]> findIntersection(Integer[] a, Integer[] b) {
         if (a == null || b == null) {
             return Optional.empty();
         }
